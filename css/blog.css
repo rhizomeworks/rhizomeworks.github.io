@@ -15,10 +15,11 @@ body .content {
   margin-bottom: 120px;
 }
 a {
-  color: rgba(0, 0, 0, 0.2);
+  color: #d3d3d3; 
 }
 a:hover {
-  text-decoration: normal;
+  color: #f1eeee;
+  text-decoration: underline;
 }
 h1,
 h2,
