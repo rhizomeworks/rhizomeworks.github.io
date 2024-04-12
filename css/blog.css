@@ -188,7 +188,7 @@ h1 {
   margin-bottom: 40px;
   color: rgba(0, 0, 0, 0.1);
 }
-#blog #segment a.hover {
+#blog #segment a:hover {
   font-size: 14px;
   font-style: normal; 
   font-family: 'Courier New', Courier, monospace;
