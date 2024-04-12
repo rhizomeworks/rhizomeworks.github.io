@@ -159,7 +159,7 @@ h1 {
 }
 #blog #title {
   font-size: 18px;
-  font-style: normal;
+  font-style: bold;
   font-family: 'Courier New', Courier, monospace;
   line-height: 1.4em;
   margin-bottom: 40px;
