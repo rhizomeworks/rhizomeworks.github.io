@@ -156,17 +156,19 @@ h1 {
 }
 #blog #title {
   font-size: 18px;
-  font-style: none;
+  font-style: normal;
   font-family: 'Courier New', Courier, monospace;
   line-height: 1.4em;
   margin-bottom: 40px;
+  color: #f2f2f2;
 }
 #blog #subtitle {
   font-size: 14px;
-  font-style: none;
+  font-style: normal; 
   font-family: 'Courier New', Courier, monospace;
   line-height: 1.4em;
   margin-bottom: 40px;
+  color: #f2f2f2;
 }
 #blog #intro {
   font-size: 14px;
