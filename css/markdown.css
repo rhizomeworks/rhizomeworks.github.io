@@ -144,7 +144,7 @@
 }
 
 .markdown-body img {
-  border-style: none;
+  border-style: normal;
 }
 
 .markdown-body svg:not(:root) {
@@ -190,7 +190,7 @@
 
 .markdown-body a {
   color: #4078c0;
-  text-decoration: none;
+  text-decoration: normal;
 }
 
 .markdown-body a:hover,
@@ -345,7 +345,7 @@
 
 .markdown-body a:not([href]) {
   color: inherit;
-  text-decoration: none;
+  text-decoration: normal;
 }
 
 .markdown-body .anchor {
@@ -356,7 +356,7 @@
 }
 
 .markdown-body .anchor:focus {
-  outline: none;
+  outline: normal;
 }
 
 .markdown-body p,
@@ -435,7 +435,7 @@
 .markdown-body h4:hover .anchor,
 .markdown-body h5:hover .anchor,
 .markdown-body h6:hover .anchor {
-  text-decoration: none;
+  text-decoration: normal;
 }
 
 .markdown-body h1:hover .anchor .octicon-link,
@@ -665,7 +665,7 @@
 }
 
 .markdown-body .task-list-item {
-  list-style-type: none;
+  list-style-type: normal;
 }
 
 .markdown-body .task-list-item+.task-list-item {

@@ -18,7 +18,7 @@ a {
   color: rgba(0, 0, 0, 0.2);
 }
 a:hover {
-  text-decoration: none;
+  text-decoration: normal;
 }
 h1,
 h2,
@@ -36,7 +36,7 @@ h1 {
   clear: both;
 }
 .hidden {
-  display: none;
+  display: normal;
 }
 .wrap {
   max-width: 700px;
@@ -50,16 +50,17 @@ h1 {
   margin-bottom: 15px;
 }
 .nav a {
-  color: rgba(0, 0, 0, 0.6);
-  text-decoration: none;
-  border-bottom: none;
+  color: rgba(0, 0, 0, 0.3);
+  text-decoration: normal;
+  border-bottom: normal;
   font-size: 12px;
 }
 .nav a:hover {
+  color: rgba(0, 0, 0, 0.1);
   font-weight: bold;
 }
 .nav ul {
-  list-style-type: none;
+  list-style-type: normal;
   padding: 0;
 }
 .nav ul li {
@@ -138,7 +139,7 @@ h1 {
   padding: 0 15px;
 }
 .article hr {
-  border-bottom: none;
+  border-bottom: normal;
   border-top: 1px solid rgba(0, 0, 0, 0.7);
   margin: 33px auto;
   width: 70px;
@@ -174,11 +175,28 @@ h1 {
 }
 #blog #intro {
   font-size: 14px;
-  font-style: none;
+  font-style: normal;
   font-family: 'Courier New', Courier, monospace;
   line-height: 1.4em;
   margin-bottom: 40px;
 }
+#blog #segment {
+  font-size: 14px;
+  font-style: normal; 
+  font-family: 'Courier New', Courier, monospace;
+  line-height: 1.4em;
+  margin-bottom: 40px;
+  color: rgba(0, 0, 0, 0.1);
+}
+#blog #segment a.hover {
+  font-size: 14px;
+  font-style: normal; 
+  font-family: 'Courier New', Courier, monospace;
+  line-height: 1.4em;
+  margin-bottom: 40px;
+  color: rgba(0, 0, 0, 0);
+}
+
 #blog .quote {
   margin-bottom: 30px;
 }
